@@ -14,8 +14,25 @@ main {
   background-color: yellow;
 }
 
+.bottom-links {
+}
+.bottom-links > a {
+}
+.bottom-links > span {
+}
+
+.main-title {
+  font-size: 60px;
+}
+
 .right-column {
   width: 60%;
   float: left;
   background-color: pink;
+}
+
+.close {
+}
+
+.form {
 }
