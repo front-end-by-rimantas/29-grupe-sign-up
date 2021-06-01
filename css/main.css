@@ -22,12 +22,18 @@ main {
   width: 40%;
   float: left;
   padding: 40px;
-  background-color: yellow;
+  background-color: #4232a0;
+  color: #fff;
+  background-image: url(../img/hill.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bottom-links {
 }
 .bottom-links > a {
+  color: #fff;
 }
 .bottom-links > span {
 }
