@@ -19,9 +19,14 @@
   font-size: 14px;
 }
 .form-row > input {
+  line-height: 40px;
   font-size: 20px;
   border: none;
   border-bottom: 1px solid #ccc;
+}
+.form-row > input::placeholder {
+  color: #ccc;
+  font-style: italic;
 }
 .form-row > button {
   padding-left: 50px;
@@ -33,9 +38,11 @@
   color: #fff;
   border: none;
   border-radius: 20px;
-  box-shadow: 2px 10px 10px 0 red;
+  box-shadow: 0 4px 8px 0 #0005;
+  cursor: pointer;
 }
 .form-row > button:hover {
+  box-shadow: 0 4px 8px 0 #0008;
 }
 .form-row > span {
   line-height: 40px;
