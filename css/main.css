@@ -14,7 +14,7 @@ body {
 main {
   display: inline-block;
   width: 800px;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-left: calc(50% - 400px);
 }
 
@@ -22,12 +22,18 @@ main {
   width: 40%;
   float: left;
   padding: 40px;
-  background-color: yellow;
+  background-color: #4232a0;
+  color: #fff;
+  background-image: url(../img/hill.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bottom-links {
 }
 .bottom-links > a {
+  color: #fff;
 }
 .bottom-links > span {
 }
