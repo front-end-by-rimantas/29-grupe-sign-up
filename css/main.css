@@ -1,4 +1,14 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
+  background-color: #7dbccd;
 }
 
 main {
@@ -11,6 +21,7 @@ main {
 .left-column {
   width: 40%;
   float: left;
+  padding: 40px;
   background-color: yellow;
 }
 
@@ -28,11 +39,9 @@ main {
 .right-column {
   width: 60%;
   float: left;
-  background-color: pink;
+  padding: 60px;
+  background-color: #fff;
 }
 
 .close {
-}
-
-.form {
 }
