@@ -8,7 +8,8 @@ body * {
 }
 
 body {
-  background-color: #7dbccd;
+  background: #615ed2;
+  background: linear-gradient(171deg, #009fe0 0%, #4e3463 100%);
 }
 
 .background {
@@ -19,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: blur(8px);
+  filter: blur(20px);
 }
 
 main {
