@@ -42,6 +42,10 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: 0;
 }
 
 .bottom-links {
@@ -58,7 +62,7 @@ main {
 
 .right-column {
   width: 60%;
-  float: left;
+  float: right;
   padding: 60px;
   background-color: #fff;
   position: relative;
